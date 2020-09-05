@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "mulish",sans-serif ;
+}
+.navbar{
+  background-color: transparent !important;
+}
+.navbar-brand{
+  font-size: 1.9em;
+  color: purple !important;
+}
+.navbar a{
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
+.navbar a:hover{
+  color: skyblue !important;
+} 
+.menu_active{
+  font-weight: bold;
+  border-bottom: solid 1px purple;
+}
+#header{
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+  
+}
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+#header .brand-name{
+  color: lightskyblue;
+}
+#header h2{
+  color: darkorchid;
+  font-size: 24px;
+
+}
+#header .btn-get-started{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: skyblue;
+  border: 2px solid blue;
+  text-decoration: none;  
+}
+#header .btn-get-started:hover{
+  background-color: blueviolet;
+  color: white;
+}
+footer p{
+  padding: 0;
+  margin : 0;
+}
+.main-div {
+  display: flex;
+  float: left;
+  text-align: center;
+  justify-content: center;
+  
+}
+@media(min-width : 992px){
+  #header{
+    height: 75vh;
+    text-align: center;
+  }
+  #header .heading-img{
+    text-align: center;
+  }
+  #header .heading-img img{
+    width: 450px;
+    height: 350px;
+  }
+  .my-footer{
+    margin-top: 20px;
+  }
+
+}
+/*................. Desktop and Laptop ..............*/
+@media (min-width : 769px) and  (max-width : 991px){
+  #header{
+    margin-top: 140px;
+    height: 80vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  #header h1{
+    font-size: 30px;
+  
+  }
+  #header .brand-name{
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  #header h2{
+    font-size: 25px;
+    
+  }
+  #header .heading-img{
+    text-align: center;
+  }
+  #header .heading-img img{
+    width: 450px;
+    height: 350px;
+  }
+  #header .btn-get-started{
+    margin-bottom: 50px;
+  } 
+ 
+}
+/*............................. Tablet ................*/
+@media (min-width : 330px ) and (max-width : 768px){
+  #header {
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+  }
+  #header h1{
+    font-size: 28px;
+  }
+  #header h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  #header .heading-img img{
+   
+   width: 400px;
+   height: 300px;
+} 
+.nav_bg{
+     
+  margin-bottom: 20px;
+}
+  }
+  /*.................MOBILE...............*/
+  @media (min-width : 0px ) and (max-width : 329px)
+  {
+      #header{
+         height: 80vh;
+         width: auto;
+         margin-top: 2px;
+
+      }
+      #header h1{
+        font-size: 25px;
+      }
+      #header h2{
+        font-size: 20px;
+      }
+      footer{
+        margin-top: 5px;
+      }
+  }
+/* .card {
+    display: flex;
+   flex-wrap: wrap;
+
+} */
